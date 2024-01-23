@@ -24,7 +24,7 @@
 
 ##
 
-* **File_name:📝** [**README.md**](https://github.com/BekiHabesha/sorting_algorithms/README.md) **file** 📒
+* **File_name:📝** [**README.md**](https://github.com/BekiHabesha/sorting_algorithms/blob/master/README.md) **file** 📒
 * **Created:🗓** 🕓 [**On January 23, 2024**](https://www.wincalendar.com/Holiday-Calendar/January-2024?v=2) 📅
 * **Author: 🖊** 🎖 [***Bereket Dereje Mekkonen***](https://intranet.alxswe.com/users/my_profile)👨🏽‍💻
 * **Project Title:💻**  🔠 [**0x1B. C - Sorting algorithms & Big O**](https://intranet.alxswe.com/projects/248) 🔡
@@ -53,12 +53,85 @@
 ### 
 
 <p align="center">
-<img src="https://cdn-images-1.medium.com/max/800/1*8Wh8KHhTWlhKOd8fvNCl1A.jpeg" />
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220916131621/SortingTYPE.png" />
 </p>
 
 ###
 
-<H1 align="center"> 📚<ins>Project Files</ins>📑📋 📱<ins>Function Prototypes:</ins>📔📲<br> And 🗂<ins>Project Test Folder</ins>📁📂</H1>
+<H1 align="center"> 🏠📖 <ins>Project Details and Descriptions</ins> 📜🧧</H1>
+
+<H1 align="center"> 🕹📚<ins>Project Tasks Description</ins>📑🪙</H1>
+
+* **N0-0. Bubble sort**
+  * [**0-bubble_sort.c**](./0-bubble_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
+    * It Prints the array after each swap.
+  * [**0-O**](./0-O) **:** is a file containing the time complexities of the Bubble Sort algorithm in [**best case**](./0-O), [**average case**](./0-O) and [**worst case**](./0-O), one per line.<br>
+* **No-1. Insertion sort**
+  * [**1-insertion_sort_list.c**](./1-insertion_sort_list.c) **:** is a C function that sorts a listint_t doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
+    * It Prints the list after each swap.
+  * [**1-O**](./1-O) **:** is a file containing the time complexities of the Insertion Sort algorithm in [**best case**](./1-O), [**average case**](./1-O) and [**worst case**](./1-O), one per line.<br>
+* **No-2. Selection sort**
+  * [**2-selection_sort.c**](./2-selection_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
+    * It Prints the array after each swap.
+  * [**2-O**](./2-O) **:** is a file containing the time complexities of the Selection Sort algorithm in [**best case**](./2-O), [**average case**](./2-O) and [**worst case**](./2-O), one per line.<br>
+* **No-3. Quick sort**
+  * [**3-quick_sort.c**](./3-quick_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
+    * It Implements the Lomuto partition scheme.
+    * It Always uses the last element of the partition being sorted as the pivot.
+    * It Prints the array after each swap.
+  * [**3-O**](./3-O) **:** is a file containing the time complexities of the Quick Sort Lomuto Partition scheme algorithm in [**best case**](./3-O), [**average case**](./3-O) and [**worst case**](./3-O), one per line.<br>
+* **No-4. Shell sort - Knuth Sequence**
+  * [**100-shell_sort.c**](./100-shell_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Shell sort algorithm.
+    * It Implements the Knuth interval sequence.
+    * It Prints the array each time the interval is decreased.<br>
+* **No-5. Cocktail shaker sort**
+  * [**101-cocktail_sort_list.c**](./101-cocktail_sort_list.c) **:** is a C function that sorts a listint_t doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
+    * It Prints the list after each swap.
+  * [**101-O**](./101-O) **:** is a file containing the time complexities of the Cocktail Shaker Sort algorithm in [**best case**](./101-O), [**average case**](./101-O) and [**worst case**](./101-O), one per line.<br>
+* **No-6. Counting sort**
+  * [**102-counting_sort.c**](./102-counting_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
+    * It Assumes that the array will only contain numbers >= 0.
+    * It Prints the counting array after it has been initialized.
+  * [**102-O**](./102-O) **:** is a file containing the time complexities of the Counting Sort algorithm in [**best case**](./102-O), [**average case**](./102-O) and [**worst case**](./102-O), one per line.<br>
+* **No-7. Merge sort**
+  * [**103-merge_sort.c**](./103-merge_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
+    * It Implements the top-down Merge Sort algorithm.
+      * When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
+      * Always sorts the left subarray before the right one.
+    * It Prints subarrays each time they are merged.
+  * [**103-O**](./103-O) **:** is a file containing the time complexities of the Merge Sort algorithm in [**best case**](./103-O), [**average case**](./103-O) and [**worst case**](./103-O), one per line.<br>
+* **No-8. Heap sort**
+  * [**104-heap_sort.c**](./104-heap_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
+    * It Implements the sift-down Heap Sort algorithm.
+    * It Prints the array after each swap.
+  * [**104-O**](./104-O) **:** is a file containing the time complexiites of the Heap Sort algorithm in [**best case**](./104-O), [**average case**](./104-O) and [**worst case**](./104-O), one per line.<br>
+* **No-9. Radix sort**
+  * [**105-radix_sort.c**](./105-radix_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
+    * It Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
+    * It Assumes that the array will only contain numbers >= 0.
+    * It Prints the array for each significant digit increase.
+  * [**105-O**](./105-O) **:** is a file containing the time complexities of the Radix Sort algorithm in [**best case**](./105-O), [**average case**](./105-O) and [**worst case**](./105-O), one per line.<br>
+* **No-10. Bitonic sort**
+  * [**106-bitonic_sort.c**](./106-bitonic_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
+    * It Assumes that size is a power of 2 (ie. size can be expressed as 2^k where k >= 0).
+    * It Prints subarrays each time they are merged.
+  * [**106-O**](./106-O) **:** is a file containing the time complexities of the Bitonic Sort algorithm in [**best case**](./106-O), [**average case**](./106-O) and [**worst case**](./106-O), one per line.<br>
+* **No-11. Quick Sort - Hoare Partition scheme**
+  * [**107-quick_sort_hoare.c**](./107-quick_sort_hoare.c) **:** is a C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
+    * It Implements the Hoare partition scheme.
+    * It Always uses the last elemement of the partition being sorted as the pivot.
+    * It Prints the array after each swap.
+  * [**107-O**](./107-O): is a file containing the time complexities of the Quick Sort Hoare Partition cheme algorithm in [**best case**](./107-O), [**average case**](./107-O) and [**worst case**](./107-O), one per line.<br>
+* **No-12. Dealer**
+  * [**1000-sort_deck.c**](./1000-sort_deck.c) **:** is a C function that sorts a deck_node_t doubly-linked list deck of cards.
+    * It Assumes that there are exactly 52 elements in the doubly-linked list.
+    * It Orders the deck from spades to diamonds and from aces to kings.
+
+<p align="center">
+<img src="https://cdn-images-1.medium.com/max/800/1*8Wh8KHhTWlhKOd8fvNCl1A.jpeg" />
+</p>
+
+###
 
 <H1> 📚<ins>Project Files</ins>📑 </H1>
 
@@ -400,7 +473,7 @@ typedef struct listint_s
 
 ### 
 
-* **File_name:📝** [**README.md**](https://github.com/BekiHabesha/sorting_algorithms/README.md) **file** 📒
+* **File_name:📝** [**README.md**](https://github.com/BekiHabesha/sorting_algorithms/blob/master/README.md) **file** 📒
 * **Created:🗓** 🕓 [**On January 23, 2024**](https://www.wincalendar.com/Holiday-Calendar/January-2024?v=2) 📅
 * **Author: 🖊** 🎖 [***Bereket Dereje Mekkonen***](https://intranet.alxswe.com/users/my_profile)👨🏽‍💻
 * **Project Title:💻**  🔠 [**0x1B. C - Sorting algorithms & Big O**](https://intranet.alxswe.com/projects/248) 🔡
@@ -438,7 +511,7 @@ typedef struct listint_s
   * in the [**worst case**](https://en.wikipedia.org/wiki/Best,_worst_and_average_case)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 0-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 0-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -462,9 +535,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 0-bubble_sort.c 0-main.c print_array.c -o bubble
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./bubble
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 0-bubble_sort.c tests/tests-main.c/0-main.c print_array.c -o bubble
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./bubble
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 19, 48, 71, 99, 13, 52, 96, 73, 86, 7
@@ -490,7 +563,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./bubble
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 ##
 
@@ -512,7 +585,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Insertion_sort#:~:text=Array-,Worst%2Dcase,-performance)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 1-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 1-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -571,10 +644,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./bubble
-./insertion
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/1-main.c 1-insertion_sort_list.c print_list.c -o insertion
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./insertion
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 19, 48, 71, 99, 13, 52, 96, 73, 86, 7
@@ -600,7 +672,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./bubble
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 ##
 
@@ -621,7 +693,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Selection_sort#:~:text=Array-,Worst%2Dcase,-performance)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 2-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 2-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -645,10 +717,10 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 
-2-main.c 2-selection_sort.c print_array.c -o select
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./select
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 
+tests/tests-main.c/2-main.c 2-selection_sort.c print_array.c -o select
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./select
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 7, 48, 99, 71, 13, 52, 96, 73, 86, 19
@@ -660,7 +732,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./select
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 ##
 
@@ -683,7 +755,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Quicksort#:~:text=Sorting%20algorithm-,Worst%2Dcase,-performance)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 3-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 3-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -707,9 +779,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 3-main.c 3-quick_sort.c print_array.c -o quick
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./quick
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/3-main.c 3-quick_sort.c print_array.c -o quick
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./quick
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 7, 48, 99, 71, 13, 52, 96, 73, 86, 19
@@ -721,7 +793,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./quick
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 
 #
@@ -740,7 +812,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
 ##### No big O notations of the time complexity of the Shell sort (Knuth sequence) algorithm needed - as the complexity is dependent on the size of array and gap.
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 100-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 100-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -764,16 +836,16 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 100-main.c 100-shell_sort.c print_array.c -o shell
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./shell
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/100-main.c 100-shell_sort.c print_array.c -o shell
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./shell
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 13, 7, 96, 71, 19, 48, 99, 73, 86, 52
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 
 ###
@@ -794,7 +866,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Cocktail_shaker_sort#:~:text=Worst%2Dcase%20performance)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 101-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 101-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -853,9 +925,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 101-main.c 101-cocktail_sort_list.c print_list.c -o cocktail
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./cocktail
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/101-main.c 101-cocktail_sort_list.c print_list.c -o cocktail
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./cocktail
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 19, 48, 71, 99, 13, 52, 96, 73, 86, 7
@@ -881,7 +953,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./cocktail
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 
 ## ♣️ **No. 6. Counting sort** ♥️ :heavy_check_mark:
@@ -902,7 +974,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Counting_sort#:~:text=Array-,Worst%2Dcase,-performance)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 102-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 102-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -926,15 +998,15 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 102-main.c 102-counting_sort.c print_array.c -o counting
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./counting
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/102-main.c 102-counting_sort.c print_array.c -o counting
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./counting
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 10
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 ##
 
@@ -958,7 +1030,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Sorting_algorithm#:~:text=several%20STL%20implementations.-,Merge%20sort,-%EF%BF%BD)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 103-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 103-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -982,9 +1054,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 103-main.c 103-merge_sort.c print_array.c -o merge
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./merge
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/103-main.c 103-merge_sort.c print_array.c -o merge
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./merge
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 Merging...
@@ -1025,7 +1097,7 @@ Merging...
 [Done]: 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 
 ##
@@ -1045,7 +1117,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Heapsort#:~:text=Array-,Worst%2Dcase%20performance,-%EF%BF%BD)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 104-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 104-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -1069,9 +1141,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 104-main.c 104-heap_sort.c print_array.c -o heap
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./heap
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/104-main.c 104-heap_sort.c print_array.c -o heap
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./heap
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 19, 48, 99, 86, 13, 52, 96, 73, 71, 7
@@ -1103,7 +1175,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./heap
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 
 ##
@@ -1120,7 +1192,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * You’re **expected to print the** [**array**](./105-radix_sort.c) each time you <ins>**increase</ins>** your [**significant digit**](./105-radix_sort.c) (See example below).
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 105-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 105-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -1144,16 +1216,16 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 105-main.c 105-radix_sort.c print_array.c -o radix
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./radix
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/105-main.c 105-radix_sort.c print_array.c -o radix
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./radix
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 71, 52, 13, 73, 96, 86, 7, 48, 19, 99
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 
 ##
@@ -1176,7 +1248,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Bitonic_sorter#:~:text=Worst%2Dcase%20performance,parallel%20time)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 106-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 106-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -1200,9 +1272,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 106-main.c 106-bitonic_sort.c print_array.c -o bitonic
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./bitonic
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/106-main.c 106-bitonic_sort.c print_array.c -o bitonic
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./bitonic
 100, 93, 40, 57, 14, 58, 85, 54, 31, 56, 46, 39, 15, 26, 78, 13
 
 Merging [16/16] (UP):
@@ -1267,7 +1339,7 @@ Result [16/16] (UP):
 13, 14, 15, 26, 31, 39, 40, 46, 54, 56, 57, 58, 78, 85, 93, 100
 
 13, 14, 15, 26, 31, 39, 40, 46, 54, 56, 57, 58, 78, 85, 93, 100
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 ##
 
@@ -1288,7 +1360,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$
   * in the [**worst case**](https://en.wikipedia.org/wiki/Quicksort#:~:text=Sorting%20algorithm-,Worst%2Dcase%20performance,-%EF%BF%BD)
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 107-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 107-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -1312,9 +1384,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 107-main.c 107-quick_sort_hoare.c print_array.c -o quick
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./quick
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/107-main.c 107-quick_sort_hoare.c print_array.c -o quick
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./quick
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 7, 48, 99, 71, 13, 52, 96, 73, 86, 19
@@ -1328,7 +1400,7 @@ BekaHabesha@BekaHabesha:~/sorting_algorithms$ ./quick
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-BekaHabesha@BekaHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 #####
 **Another example of output:**
@@ -1438,7 +1510,7 @@ typedef struct deck_node_s
   * See example below
 #####
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 1000-main.c 
+BereketDereje@BekiHabesha:~/sorting_algorithms/tests/tests-main.c$ cat 1000-main.c 
 #include <stdlib.h>
 #include <stdio.h>
 #include "deck.h"
@@ -1501,9 +1573,9 @@ int main(void)
 }
 ```
 ```js
-BekaHabesha@BekaHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 1000-main.c 1000-sort_deck.c -o deck
-BekiHabesha@BekiHabesha:~/sorting_algorithms$
-BekiHabesha@BekiHabesha:~/sorting_algorithms$ ./deck
+BereketDereje@BekiHabesha:~/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 tests/tests-main.c/1000-main.c 1000-sort_deck.c -o deck
+BereketDereje@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$ ./deck
 {Jack, C}, {4, H}, {3, H}, {3, D}, {Queen, H}, {5, H}, {5, S}, {10, H}, {6, H}, {5, D}, {6, S}, {9, H}, {7, D}
 {Jack, S}, {Ace, D}, {9, C}, {Jack, D}, {7, S}, {King, D}, {10, C}, {King, S}, {8, C}, {9, S}, {6, C}, {Ace, C}, {3, S}
 {8, S}, {9, D}, {2, H}, {4, D}, {6, D}, {3, C}, {Queen, C}, {10, S}, {8, D}, {8, H}, {Ace, S}, {Jack, H}, {2, C}
@@ -1514,6 +1586,6 @@ BekiHabesha@BekiHabesha:~/sorting_algorithms$ ./deck
 {Ace, H}, {2, H}, {3, H}, {4, H}, {5, H}, {6, H}, {7, H}, {8, H}, {9, H}, {10, H}, {Jack, H}, {Queen, H}, {King, H}
 {Ace, C}, {2, C}, {3, C}, {4, C}, {5, C}, {6, C}, {7, C}, {8, C}, {9, C}, {10, C}, {Jack, C}, {Queen, C}, {King, C}
 {Ace, D}, {2, D}, {3, D}, {4, D}, {5, D}, {6, D}, {7, D}, {8, D}, {9, D}, {10, D}, {Jack, D}, {Queen, D}, {King, D}
-BekiHabesha@BekiHabesha:~/sorting_algorithms$
+BereketDereje@BekiHabesha:~/sorting_algorithms$
 ```
 #
