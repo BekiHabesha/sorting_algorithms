@@ -60,7 +60,7 @@
 
 <H1 align="center"> 🏠📖 <ins>Project Details and Descriptions</ins> 📜🧧</H1>
 
-<H1 align="center"> 🕹📚<ins>Project Tasks Description</ins>📑🪙</H1>
+<H1> 🕹📚<ins>Project Tasks Description</ins>📑🪙</H1>
 
 * **N0-0. Bubble sort**
   * [**0-bubble_sort.c**](./0-bubble_sort.c) **:** is a C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
